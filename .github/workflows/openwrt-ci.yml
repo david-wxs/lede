@@ -30,7 +30,7 @@ jobs:
 
     steps:
 
-      - name: Checkout
+      - name: SSH connection to Actions
         uses: actions/checkout@v2
         with:
           ref: master
