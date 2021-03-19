@@ -32,7 +32,7 @@ jobs:
     
        
       - name: SSH connection to Actions
-        uses: p3terx/debugger-action@master
+        uses: actions/debugger-action@v2
 
 
       - name: checkout
